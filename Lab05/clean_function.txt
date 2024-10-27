@@ -1,0 +1,16 @@
+void clean (std::string & V){
+  std::string temp_string;
+  for(const auto & el: V){
+    if (ispunct(el) || isspace(el)) continue;
+    else if (isupper(el)) output += tolower(el);
+    else output += el;
+  }
+  if (temp_string.size() != 0) V = temp_string;
+  else throw std::runtime_error("Error: Empty string");
+}
+
+void clean (std::vector<std::string> & V){
+  for (auto & str: V){
+    clean(str);
+  }
+}

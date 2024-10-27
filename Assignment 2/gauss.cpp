@@ -53,15 +53,6 @@ Matrix read_matrix(){
 
 /* PUT YOUR SOLUTION BELOW THIS LINE */
 /* You may add extra functions if necessary */
-double det(const Matrix& A){
-	double det = 1;
-	
-	for(ull i = 0; i < A.size(); i++){
-		det *= A.at(i).at(i);
-	}
-	
-	return det;
-}
 
 void print(const Matrix& A){//prints a matrix
     //Debug function used to print the matrix
@@ -237,16 +228,11 @@ int main(){
         //Step 1
         A = read_matrix();//A is a vector of vectors of doubles
 
-
         //Step 2
         check_if_augsquare_matrix(A);//returns an exception if A is not an augmented square matrix
 
-
-        //Step 3a
+        //Step 3
         row_reduce(A);//row reduces A, returning an exception if the matrix is ill conditioned
-		//Step 3b
-		if (det(A) < 0.0000001) throw exception ("Error: Matrix is ill-conditioned.");
-
 
         //Step 4
         std::vector<double> x;
@@ -258,9 +244,16 @@ int main(){
     }catch(exception& e){//All the functions I have written throw an exception, of type string, which states what the error is.
         //Yha I wrote a bunch of this code before the lecture on exception types.
         std::cout << e << std::endl;
-    }catch(std::out_of_range& e){
-        std::cout << "Error: Matrix is ill-conditioned." << std::endl;
-    }
+    }//catch(std::out_of_range& e){
+        /*
+        * The code is written in such a way that std::out_of_range isn't thrown for most cases. However, only for very specific
+        * test cases, matrices throw the errors anyway. Those specific matrices were tested using MatLab, and found to be
+        * ill-conditioned, so the following "fix" was implemented. Sadly, I do not have a testing suite, so I cannot say for
+        * certain that *all* matrices that cause the code to throw an error are ill conditioned -- however, for the matrices
+        * I tested, it seems to be the case.
+        */
+       // std::cout << "Error: Matrix is ill-condioned." << std::endl;
+  //  }
 
     return 0;
 }

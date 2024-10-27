@@ -1,0 +1,6 @@
+Printing Nested Lists:
+  Sublist: Lemon Lime 
+  Sublist: Raspberry Pear Banana 
+  Sublist: Lemon Lime Orange Apple 
+
+Extracting last elements: Lime Banana Apple 

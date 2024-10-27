@@ -1,0 +1,11 @@
+Testing first() and last() with modifications
+First: Grapefruit Last: Pineapple
+First: Lime Last: Lemon
+Testing const first() and last():
+First: Lime Last: Lemon
+Testing first() and last() after list manipulation
+First: Pear Last: Lemon
+First: Raspberry Last: Raspberry
+Testing first() and last() on an empty list
+first(): A runtime_error was thrown.
+last(): A runtime_error was thrown.

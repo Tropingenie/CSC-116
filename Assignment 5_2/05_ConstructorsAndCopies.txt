@@ -1,0 +1,7 @@
+L1: Grapefruit Pear Raspberry Pineapple 
+L2: Grapefruit Pear Raspberry Pineapple 
+L3: Grapefruit Pear Raspberry Pineapple 
+L4: Grapefruit Pear Pineapple Raspberry 
+L5: 1000 6000 1700 1870 
+L6: 1000 6000 1700 1870 
+L7: 1000 6000 1700 1870 

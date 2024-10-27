@@ -1,0 +1,3 @@
+L: Grapefruit Pear Raspberry Pineapple 
+L_sizes: 10 4 9 9 
+L_first_char: G P R P 

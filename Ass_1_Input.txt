@@ -1,0 +1,72 @@
+Test Case 1:
+
+abcdefghijklmnopqrstuvwxyz
+computerscience
+pear
+Expected Encryption: 	rsmgjxeihgivcge
+Actual Output:		rsmgjxeihgivcge
+
+abcdefghijklmnopqrstuvwxyz
+rsmgjxeihgivcge
+pear
+Expected Decryption: 	computerscience
+Actual Decryption:		computerscience
+
+
+Test Case 2:
+
+umvncjyskgtbqxrpefiaozhlwd
+computerscience
+pear
+
+Expected Output:
+		Encrypted:	atonpugvhobciog
+		Decrypted:	pckmboluirdvrrl
+Actual Output:
+		Encrypted: [atonpugvhobciog]
+		Decrypted: [pckmboluirdvrrl]
+
+		
+Test Case 3:
+
+r.h lawosdp,bey
+hello, world.
+raspberry
+
+Expected Output:
+		Encrypted: [h byld wwrdh,]
+		Decrypted: [hs,dpe wsry.w]
+		
+Actual Output:
+		Encrypted: [h byld wwrdh,]
+		Decrypted: [hs,dpe wsry.w]
+		
+		
+Test Case 4:
+
+hasotlknmgiery
+shortmessage
+thisisareallylongkey
+
+Expected Output:
+		Encrypted: [khyhhirhyshs]
+		Decrypted: [rhnimkitlhtk]
+
+Actual Output:
+		Encrypted: [khyhhirhyshs]
+		Decrypted: [rhnimkitlhtk]
+		
+		
+Test Case 5:
+
+hasotlknmgiery
+khyhhirhyshs
+thisisareallylongkey
+
+Expected Output:
+		Encrypted: [ihgsiryrioln]
+		Decrypted: [shortmessage]
+
+Actual Output:
+		Encrypted: [ihgsiryrioln]
+		Decrypted: [shortmessage]

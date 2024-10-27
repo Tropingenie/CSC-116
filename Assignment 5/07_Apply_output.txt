@@ -1,0 +1,8 @@
+Printing list (twice).
+6 10 17 187 116 225 
+6 10 17 187 116 225 
+
+Adding 1000 to each element.
+1006 1010 1017 1187 1116 1225 
+Concatenating elements.
+Result: C C++ Java Python 

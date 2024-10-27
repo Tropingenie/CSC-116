@@ -1,0 +1,18 @@
+Part 1
+L contains "Raspberry"
+L contains "Grapefruit"
+L contains "Orange"
+L does not contain "Pomegranate"
+
+Part 2
+L contains "Raspberry"
+L contains "Grapefruit"
+L does not contain "Orange"
+
+Part 3
+L does not contain "Raspberry"
+L does not contain "Grapefruit"
+L does not contain "Orange"
+
+Part 4
+L contains "Apple"

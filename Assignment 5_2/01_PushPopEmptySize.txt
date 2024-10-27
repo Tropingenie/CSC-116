@@ -1,0 +1,10 @@
+Initial Size: 0
+Size: 4
+Last element: 17
+pop_back returns 17
+Element: 187
+Popped 187
+Element: 6
+Popped 6
+Element: 10
+Popped 10
