@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/steee/Documents/C++/CSC 116/Exam_3/Question 5/main.cpp
+iostream
+-
+string
+-
+vector
+-
+functional
+-
+

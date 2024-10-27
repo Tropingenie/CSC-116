@@ -1,0 +1,3 @@
+C:/Users/steee/Documents/C++/CSC 116/Exam_1/pascals_triangle/cmake-build-debug/CMakeFiles/pascals_triangle.dir
+C:/Users/steee/Documents/C++/CSC 116/Exam_1/pascals_triangle/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/steee/Documents/C++/CSC 116/Exam_1/pascals_triangle/cmake-build-debug/CMakeFiles/rebuild_cache.dir

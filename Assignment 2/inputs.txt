@@ -1,0 +1,50 @@
+3 5
+1 4 9 960 12
+6 10 17 1152 67
+111 116 187 1344 21
+
+
+
+3 4
+1 4 9 960
+6 10 17 1152
+111 116 187 1344
+
+
+3 4
+2 1 -1 8
+-3 -1 2 -11
+-2 1 2 -3
+(From wikipedia)
+
+
+
+3 4
+1 1 1 3
+0 1 1 2
+0 0 1 1
+(Back substitution test)
+
+3 4
+1 -2 1 4
+0 1 6 -1
+0 0 1 2
+( https://www.mathwords.com/b/back_substitution.htm )
+Soln:
+-24
+-13
+2
+
+Row-reduction function testing:
+
+Find largest index/swap-rows
+3 4
+10 200 300 960
+6 100 17 1152
+100 116 100 1344
+
+test case throws out of range on linux box:
+3 4
+1 0 1 1
+1 1 1 0
+1 1 1 1

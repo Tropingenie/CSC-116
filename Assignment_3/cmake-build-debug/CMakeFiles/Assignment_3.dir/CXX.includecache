@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/steee/Documents/C++/CSC 116/Assignment_3/scrabble.cpp
+iostream
+-
+set
+-
+scrabble.hpp
+C:/Users/steee/Documents/C++/CSC 116/Assignment_3/scrabble.hpp
+
+C:/Users/steee/Documents/C++/CSC 116/Assignment_3/scrabble.hpp
+string
+-
+set
+-
+map
+-
+
+C:/Users/steee/Documents/C++/CSC 116/Assignment_3/scrabble_teststatic.cpp
+iostream
+-
+string
+-
+scrabble.hpp
+C:/Users/steee/Documents/C++/CSC 116/Assignment_3/scrabble.hpp
+
